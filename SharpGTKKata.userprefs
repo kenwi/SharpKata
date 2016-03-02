@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SharpKata.MVP.HelloWorld/ViewMain.cs">
+    <Files>
+      <File FileName="SharpKata.MVP.HelloWorld/ViewMain.cs" Line="35" Column="36" />
+      <File FileName="SharpKata.MVP.HelloWorld/Program.cs" Line="9" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
