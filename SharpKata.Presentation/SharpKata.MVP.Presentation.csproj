@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{371CA72B-A5AE-46F5-95F1-E8083F496B70}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -44,7 +44,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\SharpGTKKata.Model\SharpKata.MVP.Model.csproj">
+    <ProjectReference Include="..\SharpKata.Model\SharpKata.MVP.Model.csproj">
       <Project>{781BC315-0C75-4399-9427-E077F8D155E5}</Project>
       <Name>SharpKata.MVP.Model</Name>
     </ProjectReference>

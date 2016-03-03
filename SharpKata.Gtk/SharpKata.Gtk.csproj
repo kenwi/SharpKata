@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D108DA88-D67D-407F-8CF6-59C0B139772C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -72,13 +72,13 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\SharpGTKKata.Presentation\SharpKata.MVP.Presentation.csproj">
-      <Project>{371CA72B-A5AE-46F5-95F1-E8083F496B70}</Project>
-      <Name>SharpKata.MVP.Presentation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SharpGTKKata.Model\SharpKata.MVP.Model.csproj">
+    <ProjectReference Include="..\SharpKata.Model\SharpKata.MVP.Model.csproj">
       <Project>{781BC315-0C75-4399-9427-E077F8D155E5}</Project>
       <Name>SharpKata.MVP.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpKata.Presentation\SharpKata.MVP.Presentation.csproj">
+      <Project>{371CA72B-A5AE-46F5-95F1-E8083F496B70}</Project>
+      <Name>SharpKata.MVP.Presentation</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

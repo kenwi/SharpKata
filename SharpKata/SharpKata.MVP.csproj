@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B6411F2A-271C-4B39-8FFC-C0E5DAA7A2AD}</ProjectGuid>
+    <ProjectGuid>{10810F19-331B-4ADE-A963-AB087B093543}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SharpGTKKata.HelloWorld</RootNamespace>
-    <AssemblyName>SharpGTKKata.HelloWorld</AssemblyName>
+    <RootNamespace>SharpGTKKata</RootNamespace>
+    <AssemblyName>SharpGTKKata</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -16,33 +16,36 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
+    <ConsolePause>false</ConsolePause>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
+    <ConsolePause>false</ConsolePause>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewMain.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\SharpGTKKata.Presentation\SharpKata.MVP.Presentation.csproj">
+    <ProjectReference Include="..\SharpKata.Presentation\SharpKata.MVP.Presentation.csproj">
       <Project>{371CA72B-A5AE-46F5-95F1-E8083F496B70}</Project>
       <Name>SharpKata.MVP.Presentation</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SharpGTKKata.Model\SharpKata.MVP.Model.csproj">
+    <ProjectReference Include="..\SharpKata.Model\SharpKata.MVP.Model.csproj">
       <Project>{781BC315-0C75-4399-9427-E077F8D155E5}</Project>
       <Name>SharpKata.MVP.Model</Name>
     </ProjectReference>
