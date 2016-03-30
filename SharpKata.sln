@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpKata.MVP.Model", "Shar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpKata.MVP.HelloWorld", "SharpKata.HelloWorld\SharpKata.MVP.HelloWorld.csproj", "{B6411F2A-271C-4B39-8FFC-C0E5DAA7A2AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpKata.DiffEquations", "SharpKata.DiffEquations\SharpKata.DiffEquations.csproj", "{CDCF6542-917E-41D4-8969-CEBF044E346F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,12 +35,16 @@ Global
 		{B6411F2A-271C-4B39-8FFC-C0E5DAA7A2AD}.Debug|x86.Build.0 = Debug|x86
 		{B6411F2A-271C-4B39-8FFC-C0E5DAA7A2AD}.Release|x86.ActiveCfg = Release|x86
 		{B6411F2A-271C-4B39-8FFC-C0E5DAA7A2AD}.Release|x86.Build.0 = Release|x86
+		{CDCF6542-917E-41D4-8969-CEBF044E346F}.Debug|x86.ActiveCfg = Debug|x86
+		{CDCF6542-917E-41D4-8969-CEBF044E346F}.Debug|x86.Build.0 = Debug|x86
+		{CDCF6542-917E-41D4-8969-CEBF044E346F}.Release|x86.ActiveCfg = Release|x86
+		{CDCF6542-917E-41D4-8969-CEBF044E346F}.Release|x86.Build.0 = Release|x86
 		{D108DA88-D67D-407F-8CF6-59C0B139772C}.Debug|x86.ActiveCfg = Debug|x86
 		{D108DA88-D67D-407F-8CF6-59C0B139772C}.Debug|x86.Build.0 = Debug|x86
 		{D108DA88-D67D-407F-8CF6-59C0B139772C}.Release|x86.ActiveCfg = Release|x86
 		{D108DA88-D67D-407F-8CF6-59C0B139772C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SharpKata.Gtk\SharpKata.Gtk.csproj
+		StartupItem = SharpKata.DiffEquations\SharpKata.DiffEquations.csproj
 	EndGlobalSection
 EndGlobal
