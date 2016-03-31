@@ -37,6 +37,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FlyingBall.cs" />
+    <Compile Include="RungeKutta4.cs" />
+    <Compile Include="RungeKuttaNystrom.cs" />
+    <Compile Include="CircuitV.cs" />
+    <Compile Include="IFirstDerivativeBase.cs" />
+    <Compile Include="ISecondDerivativeBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
