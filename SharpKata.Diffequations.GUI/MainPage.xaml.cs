@@ -38,9 +38,9 @@ namespace SharpKata.Diffequations.GUI
             DrawLine((int)start.X, (int)stop.X, (int)start.Y, (int)stop.Y);
         }
 
-        public void DrawLine(int x0, int x1, int y0, int y1)
+        public void DrawLine(int x0, int y0, int x1, int y1)
         {
-            var line = new Windows.UI.Xaml.Shapes.Line
+            canvas.Children.Add(new Line
             {
                 X1 = x0,
                 X2 = x1,
@@ -48,8 +48,7 @@ namespace SharpKata.Diffequations.GUI
                 Y2 = y1,
                 Stroke = new SolidColorBrush(Colors.Black),
                 StrokeThickness = 3
-            };
-            canvas.Children.Add(line);
+            });
         }
     }
 }
