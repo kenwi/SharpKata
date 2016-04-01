@@ -9,6 +9,8 @@ namespace SharpKata.MVP
 			var view = new ViewMain ();
 			var presenter = new ViewMainPresenter (view);
 			presenter.Run ();
+
+            Console.ReadKey();
 		}
 	}
 }

@@ -14,7 +14,7 @@ namespace SharpKata.MVP
 
 		}
 
-		public IViewMainPresenter Presenter
+        public IViewMainPresenter Presenter
 		{
 			get
 			{
